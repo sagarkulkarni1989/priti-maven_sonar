@@ -79,14 +79,14 @@
   </build>
   <profiles>
         <profile>
-            <id>Sonar_token</id>
+            <id>Sonar</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
                 <!-- Optional URL to server. Default value is http://localhost:9000 -->
                 <sonar.host.url>
-                  http://3.7.73.184:9000
+                  http://13.201.229.52:9000
                 </sonar.host.url>
             </properties>
         </profile>
